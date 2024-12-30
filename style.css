@@ -1,0 +1,126 @@
+body {
+    font-family: 'Tomorrow', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(
+        313deg,
+        #000000cb,
+        #12b8e2,
+        #ee2299,
+        #7c2cfc,
+        #842ce9,
+        #f504c1,
+        #f52099
+      );
+      background-size: 1400% 1400%;
+    
+      -webkit-animation: colours 20s ease infinite;
+      -moz-animation: colours 20s ease infinite;
+      -o-animation: colours 20s ease infinite;
+      animation: colours 20s ease infinite;
+    }
+    
+    /* Keyframe Stuff */
+    @-webkit-keyframes colours {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    @-moz-keyframes colours {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    @-o-keyframes colours {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    @keyframes colours {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    }
+    
+
+.white-text {
+    color: #fff; /* Set text color to white */
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background-image: url('images/logo.gif');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%; /* Make it a circle */
+    margin: 0 auto; /* Center horizontally */
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(192, 192, 192, 0.8);
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(5, 0, 3, 6);
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.link {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background: linear-gradient(135deg, #ff00ff, #00bfff);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+}
+
+.link:hover {
+    background: linear-gradient(135deg, #cc00cc, #0080ff);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    font-weight: bold;
+}
+
+/* Media Query for smaller screens (mobile devices) */
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+        border-radius: 10px;
+    }
+}
