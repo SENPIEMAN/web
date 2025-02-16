@@ -51,7 +51,7 @@ h1 {
 }
 
 .link:hover {
-    background: linear-gradient(135deg, #cc00cc, #0080ff);
+    background: linear-gradient(135deg, #0080ff, #cc00cc);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
     font-weight: bold;
 }
