@@ -30,7 +30,7 @@ body {
     background-color: rgba(192, 192, 192, 0.8);
     border-radius: 20px;
     padding: 20px;
-    box-shadow: 0 0 5px rgba(5, 0, 3, 6);
+    box-shadow: 0 0 15px rgba(8, 0, 3, 6);
     max-width: 80%;
     margin: 0 auto;
 }
