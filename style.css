@@ -6,12 +6,13 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: #351053;
+    background: #221133;
     }
     
 
 .white-text {
     color: #fff; /* Set text color to white */
+    font-weight:100;
 }
 
 .logo {
@@ -27,18 +28,27 @@ body {
 
 .container {
     text-align: center;
-    background-color: rgba(192, 192, 192, 0.8);
-    border-radius: 18px;
+    background-color: rgba(192, 192, 192, 0.5);
+    border-radius:18px;
     padding: 20px;
-    box-shadow: 10 0 10px rgba(0, 5, 7, 0.9); 
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);  
     max-width: 80%;
     margin: 0 auto;
 }
 
 h1 {
     margin-bottom: 20px;
+    text-transform: uppercase;
+    color:#c2c2c2;
+    text-shadow: #221133 2px 2px 2px; /* Add shadow to text */
 }
 
+.head-text {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color:#00e1ff;
+    text-shadow: #221133 2px 2px 2px; /* Add shadow to text */
+}
 .link {
     display: block;
     margin: 10px auto;
@@ -50,10 +60,63 @@ h1 {
     transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
 }
 
+.link-youtube {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background: linear-gradient(135deg, #ff00ff, #00bfff);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+}
+
+.link-youtube:hover {
+    background: linear-gradient(135deg, #c4c4c4, #ff0000);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
+    font-weight:200;
+    text-transform: uppercase;
+}
+.link-kick {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background: linear-gradient(135deg, #ff00ff, #00bfff);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+}
+
+.link-kick:hover {
+    background: linear-gradient(135deg, #000000, #00ff22);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
+    font-weight:200;
+    text-transform: uppercase;
+}
+
+.link-twitch {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    background: linear-gradient(135deg, #ff00ff, #00bfff);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+}
+
+.link-twitch:hover {
+    background: linear-gradient(135deg, #000000, #8400ff);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
+    font-weight:200;
+    text-transform: uppercase;
+}
 .link:hover {
-    background: linear-gradient(135deg, #0080ff, #cc00cc);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
-    font-weight: bold;
+    background: linear-gradient(135deg, #00bfff, #cc00cc);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); 
+    font-weight:200;
+    text-transform: uppercase;
 }
 
 /* Media Query for smaller screens (mobile devices) */
