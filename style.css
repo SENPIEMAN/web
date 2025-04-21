@@ -12,9 +12,9 @@ body {
 }
 
 .logo {
-    width: 100px;
-    height: 100px;
-    background-image: url('images/logo.gif');
+    width: 150px;
+    height: 150px;
+    background-image: url('images/AI_fig_head_4.png'); /* Replace with your logo URL */
     background-size: cover;
     background-position: center;
     border-radius: 50%; /* Make it a circle */
@@ -42,6 +42,16 @@ body {
     max-width: 380px; /* Set a maximum width for the container */ 
     margin: 0 auto;
 }
+.links
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap; /* Allow wrapping of links */
+        width: 35%;
+        margin: 0 auto; /* Center horizontally */
+        margin-top: 4px; /* Add some space above the links */
+    }
 .white-text {
     color: #fff; /* Set text color to white */
     font-weight:100;
@@ -79,11 +89,6 @@ h3 {
     font-size: smaller;
     font-weight: 200;
     color:#ebce2a;
-    text-decoration: outline;   /* Outline text */
-    text-decoration-style: solid; /* Solid outline */
-    text-decoration-color: #FFFFFF; /* Outline color */
-    text-decoration-thickness: 6px; /* Thickness of the outline */
-    text-shadow: #221133 2px 2px 2px; /* Add shadow to text */
 }
 .head-text {
     margin-bottom: 20px;
@@ -106,12 +111,11 @@ h3 {
     background-image: url('images/socials/YouTube.svg'); /* Replace with your icon URL */
     background-size: contain; /* Ensure the icon fits within the element */
     display: inline-block;
-    width: 45px; /* Set a fixed width for the icon */
-    height: 45px; /* Set a fixed height for the icon */
+    width: 30px; /* Set a fixed width for the icon */
+    height: 30px; /* Set a fixed height for the icon */
     margin-right: 5px; /* Add some space between the icon and text */
     vertical-align: middle; /* Align the icon vertically with the text */
     fill: #ffffff; /* Set the icon color to white */
-    transition: fill 0.3s; /* Add transition for smooth effect */
 }
 #youtube:hover {
     filter: invert(22%) sepia(93%) saturate(6077%) hue-rotate(357deg) brightness(88%) contrast(132%);
@@ -121,8 +125,8 @@ h3 {
     background-image: url('images/socials/Twitch.svg'); /* Replace with your icon URL */
     background-size: contain; /* Ensure the icon fits within the element */
     display: inline-block;
-    width: 45px; /* Set a fixed width for the icon */
-    height: 45px; /* Set a fixed height for the icon */
+    width: 30px; /* Set a fixed width for the icon */
+    height: 30px; /* Set a fixed height for the icon */
     margin-right: 5px; /* Add some space between the icon and text */
     vertical-align: middle; /* Align the icon vertically with the text */
     fill: #ffffff; /* Set the icon color to white */
@@ -135,8 +139,8 @@ h3 {
     background-image: url('images/socials/Kick.svg'); /* Replace with your icon URL */
     background-size: contain; /* Ensure the icon fits within the element */
     display: inline-block;
-    width: 45px; /* Set a fixed width for the icon */
-    height: 45px; /* Set a fixed height for the icon */
+    width: 30px; /* Set a fixed width for the icon */
+    height: 30px; /* Set a fixed height for the icon */
     margin-right: 5px; /* Add some space between the icon and text */
     vertical-align: middle; /* Align the icon vertically with the text */
 }
@@ -147,8 +151,8 @@ h3 {
     background-image: url('images/socials/discord.svg'); /* Replace with your icon URL */
     background-size: contain; /* Ensure the icon fits within the element */
     display: inline-block;
-    width: 45px; /* Set a fixed width for the icon */
-    height: 45px; /* Set a fixed height for the icon */
+    width: 30px; /* Set a fixed width for the icon */
+    height: 30px; /* Set a fixed height for the icon */
     margin-right: 5px; /* Add some space between the icon and text */
     vertical-align: middle; /* Align the icon vertically with the text */
 }
@@ -159,8 +163,8 @@ h3 {
     background-image: url('images/socials/GitHub.svg'); /* Replace with your icon URL */
     background-size: contain; /* Ensure the icon fits within the element */
     display: inline-block;
-    width: 45px; /* Set a fixed width for the icon */
-    height: 45px; /* Set a fixed height for the icon */
+    width: 30px; /* Set a fixed width for the icon */
+    height: 30px; /* Set a fixed height for the icon */
     margin-right: 5px; /* Add some space between the icon and text */
     vertical-align: middle; /* Align the icon vertically with the text */
 }
@@ -168,8 +172,8 @@ h3 {
     background-image: url('images/socials/TikTok.svg'); /* Replace with your icon URL */
     background-size: contain; /* Ensure the icon fits within the element */
     display: inline-block;
-    width: 45px; /* Set a fixed width for the icon */
-    height: 45px; /* Set a fixed height for the icon */
+    width: 30px; /* Set a fixed width for the icon */
+    height: 30px; /* Set a fixed height for the icon */
     margin-right: 5px; /* Add some space between the icon and text */
     vertical-align: middle; /* Align the icon vertically with the text */
 }
@@ -177,8 +181,8 @@ h3 {
     background-image: url('images/socials/BlueSky.svg'); /* Replace with your icon URL */
     background-size: contain; /* Ensure the icon fits within the element */
     display: inline-block;
-    width: 45px; /* Set a fixed width for the icon */
-    height: 45px; /* Set a fixed height for the icon */
+    width: 30px; /* Set a fixed width for the icon */
+    height: 30px; /* Set a fixed height for the icon */
     margin-right: 5px; /* Add some space between the icon and text */
     vertical-align: middle; /* Align the icon vertically with the text */
 }
@@ -189,8 +193,8 @@ h3 {
     background-image: url('images/socials/Instagram.svg'); /* Replace with your icon URL */
     background-size: contain; /* Ensure the icon fits within the element */
     display: inline-block;
-    width: 45px; /* Set a fixed width for the icon */
-    height: 45px; /* Set a fixed height for the icon */
+    width: 30px; /* Set a fixed width for the icon */
+    height: 30px; /* Set a fixed height for the icon */
     margin-right: 5px; /* Add some space between the icon and text */
     vertical-align: middle; /* Align the icon vertically with the text */
 }
