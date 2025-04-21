@@ -123,6 +123,8 @@ h3 {
     height: 50px; /* Set a fixed height for the icon */
     margin-right: 5px; /* Add some space between the icon and text */
     vertical-align: middle; /* Align the icon vertically with the text */
+    fill: #ffffff; /* Set the icon color to white */
+    transition: fill 0.3s; /* Add transition for smooth effect */
 }
 #twitch:hover {
     filter: invert(33%) sepia(26%) saturate(5572%) hue-rotate(247deg) brightness(98%) contrast(107%);
