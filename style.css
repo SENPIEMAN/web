@@ -144,7 +144,7 @@ h3 {
     filter: invert(70%) sepia(87%) saturate(663%) hue-rotate(51deg) brightness(104%) contrast(98%);
   }
 #discord {
-    background-image: url('images/socials/Discord.svg'); /* Replace with your icon URL */
+    background-image: url('images/socials/discord.svg'); /* Replace with your icon URL */
     background-size: contain; /* Ensure the icon fits within the element */
     display: inline-block;
     width: 45px; /* Set a fixed width for the icon */
