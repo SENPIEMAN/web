@@ -9,7 +9,6 @@ body {
     background: linear-gradient(to right, #4e0a75, #000000);
     background-size: 200% 200%;
     animation: gradient 5s ease infinite;
-    color: #fff; /* Set text color to white */
 }
 
 .logo {
