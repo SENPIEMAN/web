@@ -45,10 +45,10 @@ body {
 .links
     {
         display: flex;
-        justify-content:  center;
+        justify-content: center;
         align-items: center;
         flex-wrap: wrap; /* Allow wrapping of links */
-        width: 51%;
+        width: 47%;
         margin: 0 auto; /* Center horizontally */
         margin-top: 4px; /* Add some space above the links */
         margin-bottom: 3px;
