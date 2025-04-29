@@ -42,16 +42,17 @@ body {
     max-width: 380px; /* Set a maximum width for the container */ 
     margin: 0 auto;
 }
-.links
-    {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap; /* Allow wrapping of links */
-        width: 35%;
-        margin: 0 auto; /* Center horizontally */
-        margin-top: 4px; /* Add some space above the links */
-    }
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allow wrapping of links */
+    width: 45%; /* Set width to 100% for proper centering */
+    max-width: 400px; /* Add a max-width for better layout control */
+    margin: 0 auto; /* Center horizontally */
+    margin-top: 20px; /* Add some space above the links */
+    gap: 10px; /* Add spacing between the links */
+}
 .white-text {
     color: #fff; /* Set text color to white */
     font-weight:100;
