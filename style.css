@@ -14,7 +14,7 @@ body {
 .logo {
     width: 150px; /* Set the size of the logo */
     height: 150px; /* Set the size of the logo */
-    background-image: url('images/pfp.jpg'); /* Profile Picture */
+    background-image: url('images/socials/pfp.jpg'); /* Profile Picture */
     background-repeat: no-repeat; /* Prevent background from repeating */
     background-size: cover; /* Cover the entire element */
     background-position: center; /* Center the background image */
