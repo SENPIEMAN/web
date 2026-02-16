@@ -21,7 +21,7 @@ body {
     border-radius: 50%; /* Make it a circle */
     margin: 0 auto; /* Center horizontally */
     margin-bottom: 20px; /* Add some space below the logo */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
+    /*box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a subtle shadow for depth */
 }
 /* Container */
 .container {
